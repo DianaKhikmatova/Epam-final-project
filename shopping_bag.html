@@ -1,0 +1,219 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Template</title>
+	<meta charset="Windows-1251">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/shopping_bag.css">
+	<script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script>
+        
+    </script>
+<head>
+<body onload="refresh()">
+	<header id="header">
+		<div class="container">
+            <div class="upper-header">
+                <div class="logo">
+                    <a href="start.html"><h1 class="logo-text">Template</h1></a>
+                    <a href="start.html"><h1 class="logo-mobile">TL</h1></>
+                </div>
+                <div class="sing-up">
+                    <a href="#">E-mail sing up</a>
+                    <a href="shopping_bag.html"><img class="bag-icon" src="img/bag_icon.png" alt="bag icon"><span id="bag">Bag &pound; 1640.50 (3)</span></a>
+                </div>
+                <a id="mobile-bag" class="bag-mobile" href="shopping_bag.html">Bag &pound; 1640.50 (3)</a>
+                <div class="menu-mobile" onclick="showMenu()">
+                    <img id="menu-icon" src="img/menu.png" alt="menu button">
+                </div>
+            </div>
+            <nav id="navigation">
+                <ul>
+                    <li><a href="catalog.html">Women</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Handbags</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Clearance</a></li>
+                    <li><a href="#">Store Locator</a></li>
+                </ul>
+                <input class="search" type="text" placeholder="Style Name">
+            </nav>
+        </div>
+    </header>
+    <div class="subheader">
+        <div class="container">
+            <h3>Shopping bag</h3>
+        </div>
+    </div>
+    <main>
+        <div id="thanks" class="red-font"><h1 id="message">Thank you for the purchase.</h1></div>
+        <div id="shopping_bag" class="bag-all-items">
+            <div class="container">
+                <div class="bag-item">
+                    <div class="bag-image">
+                        <img src="img/good_8.jpg">
+                        <p>&pound; 390.25</p>
+                    </div>
+                    <div class="description">
+                        <p class="name">Only Skinny Jeans</p>
+                        <p>Color: Phillipa wash</p>
+                        <p>Size: UK 17</p>
+                        <p>Quantity: 1</p>
+                        <p class="remove-item">Remove item</span>
+                    </div>
+                </div>
+                <div class="bag-item">
+                    <div class="bag-image">
+                        <img src="img/good_1.jpg">
+                        <p>&pound; 400.75</p>
+                    </div>
+                    <div class="description">
+                        <p class="name">Paul & Joe Sister Jumper with <br>Neon Trims</p>
+                        <p>Color: Blue</p>
+                        <p>Size: UK 18</p>
+                        <p>Quantity: 1</p>
+                        <p class="remove-item">Remove item</span>
+                    </div>
+                </div>
+                <div class="bag-item">
+                    <div class="bag-image">
+                        <img src="img/good_7.jpg">
+                        <p>&pound; 849.50</p>
+                    </div>
+                    <div class="description">
+                        <p class="name">Boyfriend T-Shirt with<br>Bohemian Print</p>
+                        <p>Color: Black</p>
+                        <p>Size: UK 18</p>
+                        <p>Quantity: 1</p>
+                        <p class="remove-item">Remove item</span>
+                    </div>
+                </div>
+                <div class="bag-item  pale">
+                    <div class="bag-image">
+                        <img src="img/good_4.jpg">
+                        <p>&pound; 176.35</p>
+                    </div>
+                    <div class="description">
+                        <p class="name">Turtle Neck Jumper in Rib</p>
+                        <p>Color: Green</p>
+                        <p>Size: UK 19</p>
+                        <p>Quantity: 1</p>
+                        <p class="remove-item">Remove item</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="large-label">
+            <p>You've qualified for Free UK Next Day Delivery on your order. 
+                Don't forget to enter the code nexday at checkout</p>
+        </div>
+
+        <div class="bag-buy">
+            <div class="container">
+                <div class="count">
+                    <a href="#" class="bold" id="count" onclick="empty()">Empty bag</a>
+                </div>
+                <div class="buy">
+                    <div class="btn" onclick="buy(event)">
+                        <p class="bold">Buy now</p>
+                    </div>
+                </div>
+                <div class="total-cost">
+                    <p>Total cost</p>
+                    <span id="total">&pound; 1 640.50</span>
+                </div>
+            </div>
+        </div>
+
+	</main>
+	<footer>
+        <div class="container-table">
+        <div class="footer-half-left  right-border">
+            <div class="footer-wrap">
+                <div class="footer-lists  footer-customer">
+                    <h3 class="footer-subheader">Customer care</h3>
+                    <ul>
+                        <a href="#"><li>Customer service</li></a>
+                        <a href="#"><li>Track my order</li></a>
+                        <a href="#"><li>Return policy</li></a>
+                        <a href="#"><li>Shipping & delivery</li></a>
+                        <a href="#"><li>Contact us</li></a>
+                        <a href="#"><li>Careers</li></a>
+                    </ul>
+                </div>
+                <div class="footer-lists  footer-links">
+                    <h3 class="footer-subheader">Quick links</h3>
+                    <ul>
+                        <a href="#"><li>Store locator</li></a>
+                        <a href="#"><li>Gift cards</li></a>
+                        <a href="#"><li>Size guide</li></a>
+                        <a href="#"><li>About us</li></a>
+                        <a href="#"><li>Support</li></a>
+                    </ul>
+                </div>
+            </div>
+         </div>
+
+            <div class="footer-half-right">
+                <div class="info-footer">
+                    <div class="questions">
+                        <div class="footer-right-align">
+                            <h3 class="footer-subheader">Questions</h3>
+                            <p><a href="#"><img src="img/twitter.png" alt="twitter"></a> Tweet us @<span class="bold">template</span></p>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <h3 class="footer-subheader">Order by phone</h3>
+                        <p>8-800-409-47-12</p>
+                    </div>
+                </div>
+                <div class="delivery">
+                    <p class="grey-italic">We have our own delivery service which<br>
+                    operates in 23 major European cities. Delivery<br>
+                    time - 3-5 days.</p>
+                    <div class="footer-wrap-inner">
+                        <div class="addidional-links-footer  display-mobile">
+                            <ul>
+                                <a href="#"><li>Legal notice</li></a>
+                                <a href="#"><li>Privacy policy</li></a>
+                                <a href="#"><li>Site map</li></a>
+                            </ul>
+                        </div>
+                        <div class="social-footer">
+                            <ul>
+                                <a href="#"><li>
+                                    <img src="img/facebook.png" alt="facebook">
+                                </li></a>
+                                <a href="#"><li>
+                                    <img src="img/twitter_blue.png" alt="twitter">
+                                </li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+	</footer>
+    <div class="additional-info-footer">
+        <div class="container">
+            <div class="author">
+                <p>&copy; 2010-2015, The Template Group inc.</p>
+            </div>
+            <div class="share">
+                <p>Share &nbsp;<span> 1 437</span></p>
+            </div>
+            <div class="addidional-links-footer display-desktop">
+                <ul>
+                    <a href="#"><li>Legal notice</li></a>
+                    <a href="#"><li>Privacy policy</li></a>
+                    <a href="#"><li>Site map</li></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

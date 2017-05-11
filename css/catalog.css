@@ -1,0 +1,115 @@
+.filter ul li {
+    width: 16%;
+    height: 65px;
+    display: inline-block;
+    overflow: hidden;
+    position: relative; 
+    cursor: pointer;
+}
+.dropdown-icon {
+    background: url('../img/dropdown.png') no-repeat;
+    float: right; 
+    padding: 5px;
+    height: 20px;
+    position: absolute;
+    top: 30;
+    right: 15;
+}
+.filter-item-name {
+    font-size: 18px;
+    margin: 20px 0 0 20px;
+}
+.list {
+    margin-top: 60px;
+}
+.discount {
+    text-align: center;
+}
+.discount {
+    margin: -50px 0 100px;
+}
+.discount p {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.8em;
+} 
+.label-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 2.3em;
+}
+.grey-font {
+    color: #757575;
+}
+.good-example {
+    margin-top: -20px;
+}
+.img-filter {
+    filter: brightness(80%);
+}
+.buyers-choice  {
+    position: absolute;
+    top: 240px;
+    left: 70px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.white-font {
+    font-weight: normal;
+}
+.view-text {
+    position: absolute;
+    top: 130px;
+    left: 60px;
+    font-size: 22px;
+    line-height: 2em;
+    font-weight: bold;
+}
+footer {
+    margin-top: 0;
+}
+.filter-mobile {
+    display: none;
+}
+filter {
+    display: block;
+}
+@media only screen and (min-width: 1180px) {
+    .view-text {
+        left: 80px;
+    }
+    .buyers-choice  {
+        left: 100px;
+    }
+}
+@media only screen and (min-width: 690px) and (max-width: 1024px) {
+    .good-example {
+        height: 480px;
+    }
+}
+@media only screen and (min-width: 335px) and (max-width: 690px) { 
+    .filter-mobile {
+        display: block;
+        height: 55px;
+        border-bottom: 2px solid #e5e5e5;
+        border-top: 2px solid #e5e5e5;
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .filter {
+        display: none;
+    }
+    .good-example {
+        width: 47%;
+        height: 380px;
+    }
+    .discount p {
+        font-size: 20px;
+    } 
+    .good-example figcaption {
+        margin-top: 25px;
+    }
+}
